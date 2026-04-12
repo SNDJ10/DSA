@@ -5,7 +5,7 @@ public class Recursive {
         public static void main(String[] args) {
 
             int num [] = {7, 9, 11, 13, 15, 17};
-            int target = 9;
+            int target = 11;
             int result1 = linearsearch(num, target);
             int result2 = binarysearch(num, target,0,num.length-1);
             if (result1 != -1)
